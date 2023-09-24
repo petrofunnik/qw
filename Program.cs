@@ -89,15 +89,15 @@
 // -------------------------------------------------
 
 
-System.Console.WriteLine("Введите число: ");
-int a = Convert.ToInt32(Console.ReadLine());
-int b = 0;
-while (b<a)
-{
-    b = b +2;
-    if (b>a)
-    {
-        break;
-    }
-    Console.WriteLine(b);
-}
+// System.Console.WriteLine("Введите число: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int b = 0;
+// while (b<a)
+// {
+//     b = b +2;
+//     if (b>a)
+//     {
+//         break;
+//     }
+//     Console.WriteLine(b);
+// }
