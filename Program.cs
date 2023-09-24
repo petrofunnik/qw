@@ -2,22 +2,24 @@
 // a = 5; b = 7 -> max = 7
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
-System.Console.WriteLine("Введите первое число: ");
-int a = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите второе число: ");
-int b = Convert.ToInt32(Console.ReadLine());
-if (a>b)
-{
-    Console.WriteLine(a);  
-}
-else
-{
-    Console.WriteLine(b);
-}
-if (a == b)
-{
-    Console.WriteLine("Выражения равны");
-}
+
+// ------------------------------------------------------
+// System.Console.WriteLine("Введите первое число: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите второе число: ");
+// int b = Convert.ToInt32(Console.ReadLine());
+// if (a>b)
+// {
+//     Console.WriteLine(a);  
+// }
+// else
+// {
+//     Console.WriteLine(b);
+// }
+// if (a == b)
+// {
+//     Console.WriteLine("Выражения равны");
+// }
 // ------------------------------------------------
 
 
@@ -26,4 +28,32 @@ if (a == b)
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
+// -----------------------------------------------------
 
+using System.ComponentModel.DataAnnotations;
+
+System.Console.WriteLine("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите третье число: ");
+int c = Convert.ToInt32(Console.ReadLine());
+int max = 0;
+
+if (a>b)
+{
+    max = b;
+}
+else
+{
+    max = a;
+}
+
+if ( max > c)
+{
+    Console.WriteLine(max);
+}
+else
+{
+    Console.WriteLine(c);
+}
