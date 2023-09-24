@@ -30,30 +30,51 @@
 
 // -----------------------------------------------------
 
-using System.ComponentModel.DataAnnotations;
+// using System.ComponentModel.DataAnnotations;
 
-System.Console.WriteLine("Введите первое число: ");
+// System.Console.WriteLine("Введите первое число: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите второе число: ");
+// int b = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите третье число: ");
+// int c = Convert.ToInt32(Console.ReadLine());
+// int max = 0;
+
+// if (a>b)
+// {
+//     max = b;
+// }
+// else
+// {
+//     max = a;
+// }
+
+// if ( max > c)
+// {
+//     Console.WriteLine(max);
+// }
+// else
+// {
+//     Console.WriteLine(c);
+// }
+
+// -----------------------------------------
+
+// Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
+// ----------------------------------------------
+
+System.Console.WriteLine("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите второе число: ");
-int b = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите третье число: ");
-int c = Convert.ToInt32(Console.ReadLine());
-int max = 0;
 
-if (a>b)
+if (a%2 == 0)
 {
-    max = b;
+    Console.WriteLine("да");
 }
 else
 {
-    max = a;
-}
-
-if ( max > c)
-{
-    Console.WriteLine(max);
-}
-else
-{
-    Console.WriteLine(c);
+    Console.WriteLine("нет");
 }
